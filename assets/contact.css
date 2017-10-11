@@ -1,0 +1,32 @@
+body {
+	font-family: 'Chenla', cursive;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	background: #FCFCFC;
+}
+
+span {
+	display: block;
+}
+
+h1 {
+	font-size: 70px;
+	font-weight: 700;
+}
+
+i {
+	color: #6B8E23;
+}
+
+i:hover {
+	color: #556B2F;
+}
+
+.container {
+	text-align: center;
+}
+
+#iconContainer {
+	text-align: center;
+	padding-top: 20px;
+}

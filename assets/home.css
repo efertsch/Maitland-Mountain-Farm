@@ -1,0 +1,43 @@
+html, body { 
+  background: url(images/sample-farm.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Chenla', cursive;
+  font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: 700;
+}
+
+li{
+  font-size: 20px;
+}
+
+#headingText {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+
+
+/*#startButton {
+	background: #6B8E23;
+  border-color: #556B2F;
+}
+
+#startButton:hover {
+  background: #556B2F;
+}*/
+
+
+
