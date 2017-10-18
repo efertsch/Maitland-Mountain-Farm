@@ -1,0 +1,59 @@
+body {
+	font-family: 'Chenla', cursive;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	background: #FCFCFC;
+}
+
+span {
+	display: block;
+}
+
+h1 {
+	font-size: 70px;
+	font-weight: 700;
+}
+
+i {
+	color: #6B8E23;
+}
+
+i:hover {
+	color: #556B2F;
+}
+
+
+li{
+  font-size: 20px;
+}
+
+.container {
+	text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+a img.img-thumbnail:hover,
+a img.img-thumbnail:active {
+   -webkit-transform: scale(1.1);
+           transform: scale(1.1);
+ }
+
+#headingText {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+#whatWeDo {
+	text-align: right;
+}

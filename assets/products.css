@@ -26,10 +26,19 @@ i:hover {
 	color: #556B2F;
 }
 
+h3 {
+	font-size: 20px;
+}
+
+
  a img.img-thumbnail:hover,
  a img.img-thumbnail:active {
    -webkit-transform: scale(1.1);
            transform: scale(1.1);
+ }
+
+ .product_thumb {
+ 	text-align: center;
  }
 
 

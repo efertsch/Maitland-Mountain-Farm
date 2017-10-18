@@ -1,5 +1,5 @@
 html, body { 
-  background: url(images/sample-farm.jpg) no-repeat center center fixed; 
+  background: url(images/mmf-home.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,13 +11,34 @@ html, body {
 h1 {
 	font-size: 5em;
 	font-weight: 700;
+  color: #f7f7f7;
 }
 
 li{
   font-size: 20px;
 }
 
+span {
+  display: block;
+}
+
+i {
+  color: #6B8E23;
+}
+
+i:hover {
+  color: #556B2F;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 #headingText {
+    display: none;
     height: 200px;
     width: 400px;
     text-align: center;
@@ -28,16 +49,12 @@ li{
     margin-left: -200px;
 }
 
-
-
-/*#startButton {
-	background: #6B8E23;
-  border-color: #556B2F;
+.container {
+  text-align: center;
 }
 
-#startButton:hover {
-  background: #556B2F;
-}*/
+
+
 
 
 
