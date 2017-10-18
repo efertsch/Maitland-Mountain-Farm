@@ -1,4 +1,4 @@
-body {
+/*body {
 	font-family: 'Chenla', cursive;
 	font-family: 'Amatic SC', cursive;
 	font-size: 20px;
@@ -27,11 +27,9 @@ i:hover {
 	text-align: right;
 }
 
-#iconContainer {
-	text-align: center;
-	padding-top: 20px;
-}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}*/
 
-.aboutDiv {
-	outline: blue;
-}

@@ -14,16 +14,16 @@ h1 {
 	font-weight: 700;
 }
 
-i {
+i.contactIcon {
 	color: #6B8E23;
 }
 
-i:hover {
+i.contactIcon:hover {
 	color: #556B2F;
 }
 
 
-li{
+li.nav-item {
   font-size: 20px;
 }
 
@@ -32,10 +32,27 @@ li{
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
+
+.productThumb {
+  text-align: center;
+}
+
+.productName {
+  font-size: 20px;
+}
+
+.bg-home {
+  background: url(images/mmf-home.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 a img.img-thumbnail:hover,
 a img.img-thumbnail:active {
@@ -43,7 +60,8 @@ a img.img-thumbnail:active {
            transform: scale(1.1);
  }
 
-#headingText {
+#homeHeader {
+    display: none;
     height: 200px;
     width: 400px;
     text-align: center;
@@ -52,8 +70,11 @@ a img.img-thumbnail:active {
     left: 50%;
     margin-top: -100px;
     margin-left: -200px;
+    color: #f7f7f7;
 }
 
-#whatWeDo {
+
+
+/*#whatWeDo {
 	text-align: right;
-}
+}*/
