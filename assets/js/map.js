@@ -27,8 +27,8 @@ function initMap() {
   
   locations.forEach(function(location){
     var coords = {};
-      coords["lat"] = location.latitude; //dot notation for coords
-      coords["lng"] = location.longitude; //dot notation for coords
+      coords.lat = location.latitude; //dot notation for coords
+      coords.lng = location.longitude; //dot notation for coords
 
     service.getDetails({
       placeId: location.placeID
@@ -38,12 +38,11 @@ function initMap() {
         var marker = new google.maps.Marker({
           icon: icons[location.type].icon,
           position: coords,
-          // positon: place.geometry.location,
           map: map
          });
 
         google.maps.event.addListener(marker, "click", function() {
-          infowindow.setContent("<div><strong>" + place.name + "</strong><br>" +
+          infowindow.setContent("<div><strong><a href=" + place.website + ">" + place.name + "</a></strong><br>" +
             place.formatted_address + "</div>");
           infowindow.open(map, this);
         });
