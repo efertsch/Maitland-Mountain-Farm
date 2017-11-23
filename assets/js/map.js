@@ -34,7 +34,6 @@ function initMap() {
       placeId: location.placeID
       }, function(place, status) {
       if (status === google.maps.places.PlacesServiceStatus.OK) {
-        console.log(place);
         var marker = new google.maps.Marker({
           icon: icons[location.type].icon,
           position: coords,
@@ -50,6 +49,22 @@ function initMap() {
     });
   });
 }
+
+// function hideButton(){
+//   var button = document.getElementsByClassName("btn");
+//   button[0].style.display = "none";
+// };
+
+// function displayTable(){
+//   var table = document.getElementById("supplierTable");
+//   table.style.display = "block";
+// };
+
+// var button = document.getElementsByClassName("btn");
+// // button[0].addEventListener("click", hideButton());
+// button[0].addEventListener("click", function(){
+//   this.innerHTML = "Click to Collapse"
+// });
 
 
 
