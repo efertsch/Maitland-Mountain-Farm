@@ -64,7 +64,7 @@ h1 {
 }
 
 .bg-home {
-  background: url(images/sprouts.jpg) no-repeat center center fixed;
+  background: url(images/pickles.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -116,4 +116,8 @@ a img.img-thumbnail:active {
 
 #collapseButton {
   display: none;
+}
+
+#divOne {
+  border: 2px solid red;
 }
