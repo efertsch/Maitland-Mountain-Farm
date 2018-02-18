@@ -1,10 +1,10 @@
 var locations = [
   { name: "The Lobster Shanty", latitude: 42.520396, longitude: -70.894639, type: "service", placeID: "ChIJmxCS2mQU44kR1d30Ke4dkiA"},
-  { name: "Sea Level", latitude: 42.520262, longitude: -70.887796, type: "service", placeID: "ChIJG0J0XWYU44kRYH0-R6Wu5Lc"},
+  { name: "Sea Level - Salem", latitude: 42.520262, longitude: -70.887796, type: "service", placeID: "ChIJG0J0XWYU44kRYH0-R6Wu5Lc"},
   { name: "The Blue Ox", latitude: 42.463266, longitude: -70.947593, type: "service", placeID: "ChIJ-YpYw-Zs44kRk3GMD4hLj6w"},
   { name: "The Corner Butcher Shop", latitude: 42.556560, longitude: -70.889357, type: "retail", placeID: "ChIJa9UTCqQW44kRzpLiAP22Ud4"},
   { name: "Milk and Honey Green Grocer", latitude: 42.522704, longitude: -70.895471, type: "retail", placeID: "ChIJXxJZs3oU44kRxdLl8l-ed3Y"},
-  { name: "Sea Level", latitude: 42.811776, longitude: -70.870265, type: "service", placeID: "ChIJK7wwHqjh4okR0v87dolGAPY"},
+  { name: "Sea Level - Newburyport", latitude: 42.811776, longitude: -70.870265, type: "service", placeID: "ChIJK7wwHqjh4okR0v87dolGAPY"},
   { name: "The Common Crow", latitude: 42.630152, longitude: -70.638249, type: "retail", placeID: "ChIJD2fEGhsl44kRjT8zv3Vr54s"}
 ]
 
@@ -53,37 +53,23 @@ function initMap() {
   });
 }
 
+// function hideButton(){
+//   var button = document.getElementsByClassName("btn");
+//   button[0].style.display = "none";
+// };
 
+// function displayTable(){
+//   var table = document.getElementById("supplierTable");
+//   table.style.display = "block";
+// };
 
-var collapseButton = document.getElementById("collapseButton");
-var listButton = document.getElementById("listButton");
-var tableDiv = document.getElementById("tableHolder");
-
-
-function toggleDisplay(elem){
-  if (elem.style.display !== "none") {
-    elem.style.display = "none";
-  } else {
-    elem.style.display = "block";
-  }
-}
-
-listButton.addEventListener("click", function(){
-  listButton.style.display = "none";
-  tableDiv.style.display = "block";
-  collapseButton.style.display = "inline-block";
-});
-
-collapseButton.addEventListener("click", function(){
-  collapseButton.style.display = "none";
-  tableDiv.style.display = "none";
-  listButton.style.display = "inline-block";
+var button = document.getElementsByClassName("btn");
+button[0].addEventListener("click", function(){
+  alert("clicked!");
 });
 
 
-// click on list supplier button (display is now set to none)
-// table data appears (display now set to block)
-// collapse button appears (display is now set to block (inline-block?) )
+
 
 
 
