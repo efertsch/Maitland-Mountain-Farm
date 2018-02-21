@@ -15,19 +15,10 @@ function initMap() {
     zoom: 12,
     center: salem
   });
-  
-  var icons = {
-    service: {
-      icon: "http://maps.google.com/mapfiles/ms/icons/red-dot.png"
-    },
-    retail: {
-      icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
-    }
-  };
 
   var infowindow = new google.maps.InfoWindow();
   var service = new google.maps.places.PlacesService(map);
-  
+
   locations.forEach(function(location){
     var coords = {};
       coords.lat = location.latitude; //dot notation for coords
@@ -38,7 +29,6 @@ function initMap() {
       }, function(place, status) {
       if (status === google.maps.places.PlacesServiceStatus.OK) {
         var marker = new google.maps.Marker({
-          icon: icons[location.type].icon,
           position: coords,
           map: map
          });
@@ -53,24 +43,7 @@ function initMap() {
   });
 }
 
-// function hideButton(){
-//   var button = document.getElementsByClassName("btn");
-//   button[0].style.display = "none";
-// };
-
-// function displayTable(){
-//   var table = document.getElementById("supplierTable");
-//   table.style.display = "block";
-// };
-
 var button = document.getElementsByClassName("btn");
 button[0].addEventListener("click", function(){
   alert("clicked!");
 });
-
-
-
-
-
-
-
