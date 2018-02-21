@@ -43,7 +43,7 @@ function initMap() {
   });
 }
 
-var button = document.getElementsByClassName("btn");
-button[0].addEventListener("click", function(){
-  alert("clicked!");
-});
+// var button = document.getElementsByClassName("btn");
+// button[0].addEventListener("click", function(){
+//   alert("clicked!");
+// });
