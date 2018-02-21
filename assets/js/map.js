@@ -34,7 +34,18 @@ function initMap() {
   });
 }
 
-// var button = document.getElementsByClassName("btn");
-// button[0].addEventListener("click", function(){
-//   alert("clicked!");
-// });
+var table = document.getElementById("tableHolder");
+var listButton = document.getElementById("listButton");
+var collapseButton = document.getElementById("collapseButton");
+
+listButton.addEventListener("click", function(){
+  listButton.style.display = "none";
+  table.style.display = "block";
+  collapseButton.style.display = "inline-block";
+});
+
+collapseButton.addEventListener("click", function(){
+  listButton.style.display = "inline-block";
+  table.style.display = "none";
+  collapseButton.style.display = "none";
+});
