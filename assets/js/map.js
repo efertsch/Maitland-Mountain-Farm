@@ -3,7 +3,7 @@
 function initMap() {
   var salem = {lat: 42.519539, lng: -70.896713};
   var map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 12,
+    zoom: 10,
     center: salem
   });
 
