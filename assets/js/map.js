@@ -1,11 +1,11 @@
 var locations = [
-  { name: "The Lobster Shanty", latitude: 42.520396, longitude: -70.894639, type: "service", placeID: "ChIJmxCS2mQU44kR1d30Ke4dkiA"},
-  { name: "Sea Level - Salem", latitude: 42.520262, longitude: -70.887796, type: "service", placeID: "ChIJG0J0XWYU44kRYH0-R6Wu5Lc"},
-  { name: "The Blue Ox", latitude: 42.463266, longitude: -70.947593, type: "service", placeID: "ChIJ-YpYw-Zs44kRk3GMD4hLj6w"},
-  { name: "The Corner Butcher Shop", latitude: 42.556560, longitude: -70.889357, type: "retail", placeID: "ChIJa9UTCqQW44kRzpLiAP22Ud4"},
-  { name: "Milk and Honey Green Grocer", latitude: 42.522704, longitude: -70.895471, type: "retail", placeID: "ChIJXxJZs3oU44kRxdLl8l-ed3Y"},
-  { name: "Sea Level - Newburyport", latitude: 42.811776, longitude: -70.870265, type: "service", placeID: "ChIJK7wwHqjh4okR0v87dolGAPY"},
-  { name: "The Common Crow", latitude: 42.630152, longitude: -70.638249, type: "retail", placeID: "ChIJD2fEGhsl44kRjT8zv3Vr54s"}
+  { name: "The Lobster Shanty", latitude: 42.520396, longitude: -70.894639, placeID: "ChIJmxCS2mQU44kR1d30Ke4dkiA"},
+  { name: "Sea Level - Salem", latitude: 42.520262, longitude: -70.887796, placeID: "ChIJG0J0XWYU44kRYH0-R6Wu5Lc"},
+  { name: "The Blue Ox", latitude: 42.463266, longitude: -70.947593, placeID: "ChIJ-YpYw-Zs44kRk3GMD4hLj6w"},
+  { name: "The Corner Butcher Shop", latitude: 42.556560, longitude: -70.889357, placeID: "ChIJa9UTCqQW44kRzpLiAP22Ud4"},
+  { name: "Milk and Honey Green Grocer", latitude: 42.522704, longitude: -70.895471, placeID: "ChIJXxJZs3oU44kRxdLl8l-ed3Y"},
+  { name: "Sea Level - Newburyport", latitude: 42.811776, longitude: -70.870265,  placeID: "ChIJK7wwHqjh4okR0v87dolGAPY"},
+  { name: "The Common Crow", latitude: 42.630152, longitude: -70.638249, placeID: "ChIJD2fEGhsl44kRjT8zv3Vr54s"}
 ]
 
 
