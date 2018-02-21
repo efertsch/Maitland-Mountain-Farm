@@ -1,4 +1,5 @@
 var locations = [
+  { name: "Salem Farmer's Market", latitude: 42.520934, longitude: -70.894629, placeID: "ChIJw9Df12QU44kRac7ZlyGyPJ0"},
   { name: "Pamplemousse", latitude: 42.521580, longitude: -70.893562, placeID: "ChIJ6wqqF2UU44kRjrPNsa_ej1w"},
   { name: "Pamplemousse", latitude: 42.522379, longitude: -71.106692, placeID: "ChIJfeMHiFoL44kRvU8tFQB_Suk"},
   { name: "Salem Spice", latitude: 42.520298, longitude: -70.888406, placeID: "ChIJfSHHYGYU44kR3OrhnH2KyRk"},
