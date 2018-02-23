@@ -84,6 +84,10 @@ h1 {
   background-size: cover;
 }
 
+.about-text {
+  text-align: center;
+}
+
 i.contactIcon {
   color: #6B8E23;
 }
