@@ -88,6 +88,10 @@ h1 {
   text-align: center;
 }
 
+.slideshow {
+  width: 100%;
+}
+
 i.contactIcon {
   color: #6B8E23;
 }
@@ -107,6 +111,7 @@ a img.img-thumbnail:active {
    -webkit-transform: scale(1.1);
            transform: scale(1.1);
  }
+
 
 #homeHeader {
     display: none;

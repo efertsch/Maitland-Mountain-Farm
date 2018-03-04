@@ -3,6 +3,7 @@ $('.slideshow img:gt(0)').hide();
 
 setInterval(function () {
     $('.slideshow :first-child').fadeOut(3000)
+                              .hide()
                              .next('img')
                              .fadeIn(3000)
                              .end()
