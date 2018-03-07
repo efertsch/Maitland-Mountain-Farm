@@ -1,12 +1,12 @@
-$(function() {
-$('.slideshow img:gt(0)').hide();
 
-setInterval(function () {
-    $('.slideshow :first-child').fadeOut(3000)
-                              .hide()
-                             .next('img')
-                             .fadeIn(3000)
-                             .end()
-                             .appendTo('.slideshow');
-}, 4000); // 4 seconds
+$("#slideshow").vegas({
+    timer: false,
+    transitionDuration: 2000,
+    slides: [
+        { src: "assets/images/farm/pickles.png" },
+        { src: "assets/images/farm/garlic.jpg" },
+        { src: "assets/images/farm/squash.jpg" },
+        { src: "assets/images/farm/tomatoes.jpg" }
+    ],
+    animation: 'kenburnsUp'
 });
