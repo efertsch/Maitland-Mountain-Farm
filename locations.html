@@ -17,37 +17,37 @@
 
 <body>
 	<header>
-			<nav class="navbar navbar-toggleable-md navbar-light">
-  			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-    			<span class="navbar-toggler-icon"></span>
-  			</button>
-  			<a class="navbar-brand" href="index.html"><img src="assets/images/MMF_logo_sm.png"></a>
+		<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"></a>
 
-  			<div class="collapse navbar-collapse" id="navbarToggler">
-  			  <ul class="navbar-nav ml-auto mt-2 mt-md-0">
-  			  	<li class="nav-item">
-  			      <a class="nav-link" href="index.html">Home</a>
-  			    </li>
-  			    <li class="nav-item">
-  			      <a class="nav-link" href="about.html">About</a>
-  			    </li>
-  			    <li class="nav-item">
+				<div class="collapse navbar-collapse" id="navbarToggler">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item">
 								<a class="nav-link" href="products.html">Products</a>
 						</li>
 						<li class="nav-item">
-  			      <a class="nav-link active" href="locations.html">Where To Buy</a>
-  			    </li>
-  			    <li class="nav-item">
-  			      <a class="nav-link" href="media.html">News & Media</a>
-  			    </li>
-  			  </ul>
-  			</div>
+							<a class="nav-link active" href="locations.html">Locations</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="media.html">Press</a>
+						</li>
+					</ul>
+				</div>
 			</nav>
 		</header>
 
 	<main role="main">
 		<div id="content" class="container">
-			<h1>Where To Buy</h1>
+			<h1 class="pageHeader">Where To Buy</h1>
 			<hr>
 			<div id="map"></div>
 			<button id="listButton" type="button" class="btn btn-primary btn-lg">List all Suppliers</button>
@@ -117,14 +117,15 @@
 
 	<!-- Footer content -->
 	<footer class="footer bg-faded">
-		<div class="container">
-			<h2>Say Hello</h2>
-      	<a href="https://www.facebook.com/Maitland-Mountain-Farm-263585720353362/"><i class="fa fa-facebook-official fa-lg contactIcon" aria-hidden="true"></i></a>
-      	<a href="https://www.instagram.com/explore/locations/331646640/maitland-mountain-farm/"><i class="fa fa-instagram fa-lg contactIcon" aria-hidden="true"></i></a>
-      	<i class="fa fa-phone-square fa-lg contactIcon" aria-hidden="true"></i>
-      	<i class="fa fa-envelope fa-lg contactIcon" aria-hidden="true"></i>
-
-      	<span class="m-0 text-muted"><small>Copyright &copy; Maitland Mountain Farm 2017</small></span>
+		<div id="footerContainer" class="container">
+				<img src="assets/images/MMF_logo_sm.png"></img>
+				<div>
+      		<a href="https://www.facebook.com/Maitland-Mountain-Farm-263585720353362/"><i class="fa fa-facebook-official fa-lg contactIcon" aria-hidden="true"></i></a>
+      		<a href="https://www.instagram.com/explore/locations/331646640/maitland-mountain-farm/"><i class="fa fa-instagram fa-lg contactIcon" aria-hidden="true"></i></a>
+      		<i class="fa fa-phone-square fa-lg contactIcon" aria-hidden="true"></i>
+      		<i class="fa fa-envelope fa-lg contactIcon" aria-hidden="true"></i>
+				</div>
+				<!-- <span class="m-0 text-muted"><small>Copyright &copy; Maitland Mountain Farm 2017</small></span> -->
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
