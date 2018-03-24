@@ -7,8 +7,7 @@ $("#slideshow").vegas({
         { src: "assets/images/farm/garlic.jpg" },
         { src: "assets/images/farm/squash.jpg" },
         { src: "assets/images/farm/tomatoes.jpg" }
-    ],
-    animation: 'kenburnsUp'
+    ]
 });
 
 $("#aboutSlideshow").vegas({
@@ -19,6 +18,5 @@ $("#aboutSlideshow").vegas({
         { src: "assets/images/family/holly_in_gh.jpg" },
         { src: "assets/images/family/jett_with_chickens.jpg" },
         { src: "assets/images/family/maitland_family.jpg" }
-    ],
-    animation: 'kenburnsUp'
+    ]
 });
