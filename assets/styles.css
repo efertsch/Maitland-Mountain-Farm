@@ -50,7 +50,7 @@ h1 {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 50px;
+  height: 75px;
   background-color: #292b2c;
 }
 
@@ -96,11 +96,13 @@ h1 {
 }
 
 i.contactIcon {
-  color: #6B8E23;
+  /* color: #6B8E23; */
+  color: rgba(255,255,255,.5);
 }
 
 i.contactIcon:hover {
-  color: #556B2F;
+  /* color: #556B2F; */
+  color: rgba(255,255,255,.75);
 }
 
 .navbar-toggler {
