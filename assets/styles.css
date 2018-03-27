@@ -15,7 +15,6 @@ html {
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	background: #FCFCFC;
   margin-bottom: 150px;
@@ -28,7 +27,6 @@ span.text-muted {
 }
 
 h1 {
-  font-family: 'F25_Executive', Fallback, sans-serif;
 	font-size: 70px;
 	font-weight: 700;
 }
@@ -86,13 +84,19 @@ h1 {
   margin-top: 30px;
 }
 
-.pageHeader {
-  font-family: "F25_Executive";
+
+.about-text {
+  text-align: center;
+}
+
+.page-headers {
+  font-family: 'Amatic SC';
   text-align: center;
   margin: 20px;
 }
-.about-text {
-  text-align: center;
+
+.page-text {
+  font-family: 'F25_Executive';
 }
 
 i.contactIcon {
@@ -114,6 +118,7 @@ li.nav-item {
   font-size: 20px;
   margin-left: 40px;
   margin-right: 40px;
+  font-family: 'F25_Executive';
 }
 
 
