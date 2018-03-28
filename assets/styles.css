@@ -137,6 +137,10 @@ a img.img-thumbnail:active {
    text-decoration: underline;
  }
 
+ .social-icons {
+   margin-top: 20px;
+ }
+
 
 /* #homeHeader {
     font-family: "F25F25_Executive"
