@@ -27,6 +27,7 @@ span.text-muted {
 }
 
 h1 {
+  font-family: 'Amatic SC';
 	font-size: 70px;
 	font-weight: 700;
 }
@@ -90,7 +91,6 @@ h1 {
 }
 
 .page-headers {
-  font-family: 'Amatic SC';
   text-align: center;
   margin: 20px;
 }
@@ -128,9 +128,18 @@ a img.img-thumbnail:active {
            transform: scale(1.1);
  }
 
+ .product_lists {
+   list-style: none;
+ }
+
+ .product_list_title {
+   font-weight: 800;
+   text-decoration: underline;
+ }
+
 
 /* #homeHeader {
-    display: none;
+    font-family: "F25F25_Executive"
     position: fixed;
     top: 50%;
     left: 50%;
