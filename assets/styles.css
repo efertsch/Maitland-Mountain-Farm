@@ -45,6 +45,16 @@ h1 {
   margin: 0 auto;
 }
 
+.article-text {
+  font-size: 15px;
+  text-align: left;
+  /* display: inline-block; */
+}
+
+/* .media-logo {
+  display: inline-block;
+} */
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -114,6 +124,10 @@ i.contactIcon:hover {
   background: black;
 }
 
+.navbar-nav {
+  text-align: right;
+}
+
 li.nav-item {
   font-size: 20px;
   margin-left: 40px;
@@ -140,6 +154,15 @@ a img.img-thumbnail:active {
  .social-icons {
    margin-top: 20px;
  }
+
+ .media-row {
+   height: 200px;
+   border: 1px solid red;
+ }
+
+.opaqueBackground {
+  background: rgba(41, 43, 44, 0.5) !important;
+}
 
 
 /* #homeHeader {
