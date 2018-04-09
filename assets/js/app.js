@@ -3,6 +3,6 @@
 //    $("#homeHeader").fadeIn(3000);
 // });
 
-//Product Scroll Reveal
+Product Scroll Reveal
 window.sr = ScrollReveal();
 sr.reveal('.productThumb');

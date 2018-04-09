@@ -63,6 +63,10 @@ h1 {
   background-color: #343a40;
 }
 
+.cp-right {
+  font-size: 10px;
+}
+
 .bottom {
   margin-bottom: 150px;
 }
@@ -162,16 +166,22 @@ a img.img-thumbnail:active {
  }
 
  .social-icons {
-   margin-top: 20px;
+   margin-top: 10px;
  }
 
  .media-row {
-   height: 200px;
-   border: 1px solid red;
+   height: 350px;
+   /* border: 1px solid red; */
  }
 
+
+.article-title {
+  font-family: 'Amatic SC';
+  font-size: 40px;
+}
+
 .opaqueBackground {
-  background: rgba(41, 43, 44, 0.5) !important;
+  background-color: rgba(52, 58, 64, 0.5) !important;
 }
 
 
@@ -209,4 +219,17 @@ a img.img-thumbnail:active {
 #aboutSlideshow {
   height: 100vh;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .media-row {
+        height: 450px;
+    }
+    .article-title {
+      margin-top: 20px;
+      font-size: 30px;
+    }
+    div.article-text {
+      text-align: center;
+    }
 }

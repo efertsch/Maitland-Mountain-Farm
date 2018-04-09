@@ -38,6 +38,7 @@ var table = document.getElementById("tableHolder");
 var listButton = document.getElementById("listButton");
 var collapseButton = document.getElementById("collapseButton");
 
+//refactor into one function with params
 listButton.addEventListener("click", function(){
   listButton.style.display = "none";
   table.style.display = "block";
