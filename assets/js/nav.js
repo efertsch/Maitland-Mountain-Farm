@@ -5,5 +5,3 @@ var navbarTogglerButton = $('button.navbar-toggler'),
 navbarTogglerButton.on('click', function(){
   dropdownMenu.toggleClass('opaqueBackground');
 })
-
-//Issue: navbar remains opaque if screen is expanded

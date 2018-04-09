@@ -15,6 +15,7 @@ html {
 }
 
 body {
+  font-family: 'F25_Executive';
 	font-size: 20px;
 	background: #FCFCFC;
   margin-bottom: 150px;
@@ -130,12 +131,13 @@ i.contactIcon:hover {
 
 .navbar-toggler {
   text-align: center;
-  background: rgba(255,255,255, 0.5);
+  background: black;
+  color: white;
 }
 
-.navbar-toggler-icon {
+/* .navbar-toggler-icon {
   color: #343a40;
-}
+} */
 
 .navbar-nav {
   text-align: right;
@@ -171,7 +173,6 @@ a img.img-thumbnail:active {
 
  .media-row {
    height: 350px;
-   /* border: 1px solid red; */
  }
 
 
@@ -182,6 +183,10 @@ a img.img-thumbnail:active {
 
 .opaqueBackground {
   background-color: rgba(52, 58, 64, 0.5) !important;
+}
+
+.popover {
+  font-family: 'F25_Executive';
 }
 
 
@@ -221,7 +226,7 @@ a img.img-thumbnail:active {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 800px) {
     .media-row {
         height: 450px;
     }

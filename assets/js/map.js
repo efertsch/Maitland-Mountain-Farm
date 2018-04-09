@@ -34,19 +34,38 @@ function initMap() {
   });
 }
 
-var table = document.getElementById("tableHolder");
+var supplierTable = document.getElementById("tableHolder");
 var listButton = document.getElementById("listButton");
 var collapseButton = document.getElementById("collapseButton");
 
 //refactor into one function with params
-listButton.addEventListener("click", function(){
-  listButton.style.display = "none";
-  table.style.display = "block";
-  collapseButton.style.display = "inline-block";
-});
+// listButton.addEventListener("click", function(){
+//   listButton.style.display = "none";
+//   supplierTable.style.display = "block";
+//   collapseButton.style.display = "inline-block";
+// });
+//
+// collapseButton.addEventListener("click", function(){
+//   listButton.style.display = "inline-block";
+//   supplierTable.style.display = "none";
+//   collapseButton.style.display = "none";
+// });
 
-collapseButton.addEventListener("click", function(){
-  listButton.style.display = "inline-block";
-  table.style.display = "none";
-  collapseButton.style.display = "none";
-});
+function showTable(button1, table, button2) {
+    button1.addEventListener("click", function(){
+    button1.style.display = "none";
+    table.style.display = "block";
+    button2.style.display = "inline-block";
+  });
+}
+
+function hideTable(button1, table, button2) {
+  button2.addEventListener("click", function(){
+    button1.style.display = "inline-block";
+    table.style.display = "none";
+    button2.style.display = "none";
+  })
+}
+
+showTable(listButton, supplierTable, collapseButton);
+hideTable(listButton, supplierTable, collapseButton);
