@@ -189,6 +189,10 @@ a img.img-thumbnail:active {
   font-family: 'F25_Executive';
 }
 
+.product {
+  margin-bottom: 30px;
+}
+
 
 /* #homeHeader {
     font-family: "F25F25_Executive"
