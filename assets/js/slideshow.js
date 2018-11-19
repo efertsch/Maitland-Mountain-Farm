@@ -1,4 +1,3 @@
-
 $("#slideshow").vegas({
     timer: false,
     transitionDuration: 2000,
