@@ -231,24 +231,24 @@ a img.img-thumbnail:active {
 
 .nursery__title {
   color: white;
-  font-size: 100px;
 }
 
 .nursery__category {
   height: 300px;
   max-width: 300px;
-  border: 1px solid black;
   margin: 2em;
-}
-
-.nursery__category figure {
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.nursery__category .card {
+  height: 100%
+}
 
+.card .card-body {
+  height: 50px;
+}
 
 @media screen and (max-width: 800px) {
     .media-row {
