@@ -12,7 +12,7 @@ $("#slideshow").vegas({
 
 $("#aboutSlideshow").vegas({
     timer: false,
-    transitionDuration: 3000,
+    transitionDuration: 2000,
     slides: [
         { src: "assets/images/family/family_window.jpg" },
         { src: "assets/images/family/holly_in_gh.jpg" },
