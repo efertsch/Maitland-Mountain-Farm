@@ -246,6 +246,11 @@ a img.img-thumbnail:active {
   height: 100%
 }
 
+.nursery__category .card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .card .card-body {
   height: 50px;
 }
